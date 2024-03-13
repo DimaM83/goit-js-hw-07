@@ -39,18 +39,18 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
+  justify-content: center;
+  align-items: flex-start;
   padding: 0;
 }
 
 .gallery li {
-  flex: 0 0 33.33%;
+  flex: 0 0 calc(33.33% - 20px);
   margin-bottom: 20px;
-  padding: 0 10px;
 }
 
 .gallery img {
   width: 100%;
   height: auto;
   border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
