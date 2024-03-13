@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  padding: 0;
 }
 
 body {
@@ -14,8 +15,28 @@ body {
 }
 
 
-/* task-2 */
+/* task-1  */
+ li {
+  list-style: none;
+  border: 1px solid;
+  margin: 8px;
+}
 
+.item {
+  border: 1px solid;
+  margin: 24px;
+  border-radius: 8px;
+padding: 24px;
+background: #f6f6fe;
+border: none;
+}
+
+h2 {
+  margin: 0;
+}
+
+
+/* task-2 */
 .gallery {
   display: flex;
   flex-wrap: wrap;
@@ -35,3 +56,5 @@ body {
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
+
