@@ -78,6 +78,9 @@ button {
   border: none;
   margin-top: 16px;
 }
+button:hover {
+  background: #6c8cff;
+}
 
 /* task-5 */
 .change-color {
@@ -125,9 +128,13 @@ button {
 }
 
 [data-destroy] {
-  background-color: #ff4e4e;
+  background: #ff4e4e;
   width: 120px;
   height: 40px;
+}
+
+[data-destroy]:hover {
+  background: #ff7070;;
 }
 
 [data-create] {
